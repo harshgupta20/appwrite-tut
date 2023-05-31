@@ -14,15 +14,9 @@ const Login = () => {
 
 
 
-  // APPWRITE CONFIGURATION
   const loginFunc = async () => {
-    try{
-      await account.createEmailSession(userData.email, userData.password);
-      navigate("/account");
-    }
-    catch(error){
-        console.log(error);
-    }
+    // APPWRITE CONFIGURATION
+    
   }
 
 

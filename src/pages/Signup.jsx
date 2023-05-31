@@ -12,18 +12,7 @@ const Signup = () => {
 
   const signupFunc = async () => {
     // APPWRITE CONFIGURATION
-    const signUpProcess = account.create(
-      userData.name,
-      userData.email,
-      userData.password,
-      userData.name,
-    )
-    signUpProcess.then(function (response) {
-      alert("SignUp successfully");
-      navigate("/login");
-    }, function (error) {
-      alert(error);
-    })
+ 
   }
 
 
